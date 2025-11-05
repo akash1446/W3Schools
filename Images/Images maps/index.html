@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Image map</title>
+</head>
+<html>
+<body>
+
+<h2>Image Maps</h2>
+<p>Click on the Laptop, the Iphone, or the Watch to go to a new page and read more about the topic:</p>
+
+<img src="https://i.pinimg.com/736x/30/a4/40/30a4407958b75ec0c3c96daea0c40d24.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="laptop" href="laptop.htm">
+  <area shape="rect" coords="290,172,333,250" alt="iPhone" href="iphone.htm">
+  <area shape="circle" coords="337,300,44" alt="waterglass" href="waterglass.htm" onclick="myFunction()">
+  </map>
+<p>Click on the croissant to go to a new page and read more about the topic:</p>
+
+<img src="https://www.w3schools.com/html/frenchfood.jpg" alt="French Food" usemap="#foodmap" width="450" height="675">
+
+<map name="foodmap">
+  <area shape="poly" coords="140,121,181,116,204,160,204,222,191,270,140,329,85,355,58,352,37,322,40,259,103,161,128,147" alt="Croissant" href="croissant.htm">
+</map>
+<script>
+function myFunction() {
+  alert("You clicked waterglass!");
+}
+</script>
+</body>
+</html>
+
