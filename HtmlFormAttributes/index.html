@@ -9,12 +9,13 @@
     <h2>Html Forms</h2>
      
     <section>
-        <form action="/action_page.php" autocomplete="on" novalidate>
+        <form action="/action_page.php" autocomplete="on" novalidate id="form1">
             <label for="firstName">First Name :</label><br>
             <input type="text" id="firstName" name="firstName" value="Raju"><br>
             <label for="lastName">Last Name :</label><br>
             <input type="text" id="lastName" name="lastName" value="Rani"><br><br>
-            <input type="submit">
+             <input type="submit" value="Submit using GET">
+  <input type="submit" formmethod="post" value="Submit using POST">
         </form>
     </section>
 
