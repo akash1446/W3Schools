@@ -1,0 +1,14 @@
+*{
+    border: 2px solid black;
+}
+html,body{
+    font-size: 20px;
+    color: blueviolet;
+}
+body{
+    background-color: purple;
+}
+.result{
+    background-color: blue;
+    border-top: 5px;
+}

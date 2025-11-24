@@ -1,0 +1,16 @@
+*{
+    border-radius: 5px;
+}
+html,body{
+    font-size: 20px;
+    color: blueviolet;
+}
+body{
+    background-color:aqua;
+}
+#result{
+    background-color: chartreuse;
+}
+button{
+   background-color: bisque;
+}
