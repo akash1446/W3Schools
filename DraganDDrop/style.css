@@ -1,0 +1,27 @@
+
+#div1 {
+  width: 350px;
+  height: 70px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+  background-color: lightblue;
+}
+h1{
+    background-color: green;
+}
+p{
+    background-color: yellow;
+    background-image: url("Image/gold.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:400%;
+    height: 100px;
+}
+body{
+
+    background-image:url("Image/background.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
