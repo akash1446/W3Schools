@@ -1,0 +1,12 @@
+p{
+    border: 5px solid red;
+    border-left:6px solid blue;
+    border-bottom: 6px solid wheat;
+}
+p.one{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+p #two{
+    border-top: 5px dashed yellow;
+}

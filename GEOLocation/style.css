@@ -1,0 +1,14 @@
+p{
+  width:300px;
+  margin:auto;
+  border: 1px solid goldenrod;
+}
+p.e1{
+    margin-left: inherit;
+}
+h1{
+  margin-bottom: 50px;
+}
+h2{
+  margin-top: 20px;
+}
