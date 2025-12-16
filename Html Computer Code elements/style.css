@@ -1,5 +1,7 @@
 div{
-    width: 300px;
-    padding: 25px;
+    height: 100px;
+    width: 500px;
     box-sizing: border-box;
+    background-color: powderblue;
+
 }

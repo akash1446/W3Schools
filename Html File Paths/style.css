@@ -1,0 +1,11 @@
+body{
+    background-color:lightskyblue;
+}
+div{
+  max-height: 600px;
+  min-width: 200px;
+  background-color: powderblue;
+}
+img{
+    width:600px;
+}
