@@ -6,10 +6,14 @@
   border: 1px solid #aaaaaa;
   background-color: lightblue;
 }
-h1{
+h1.lowercase{
     background-color: green;
+    text-transform: lowercase;
+    letter-spacing: -2px;
+    line-height: 0.8;
+    word-spacing: 10px;
 }
-p{
+p.uppercase{
     background-color: yellow;
     background-image: url("Image/gold.jpg");
     background-repeat:no-repeat;
@@ -17,6 +21,11 @@ p{
     background-attachment: fixed;
     width:400%;
     height: 100px;
+    text-transform: uppercase;
+    text-indent: 50px;
+    line-height: 1.8;
+    word-spacing: -2px;
+    white-space: nowrap;
 }
 body{
 

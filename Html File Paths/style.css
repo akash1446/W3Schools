@@ -6,6 +6,14 @@ div{
   min-width: 200px;
   background-color: powderblue;
 }
-img{
+img.a{
     width:600px;
+    vertical-align: baseline;
+}
+img.b{
+  vertical-align: text-top;
+}
+p{
+  direction: rtl;
+  unicode-bidi: bidi-override;
 }

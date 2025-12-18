@@ -1,0 +1,7 @@
+h1{
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px black, 0 0 5px red, 0 0 25px blue;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -4,3 +4,6 @@ function myFunction() {
     x[i].style.display = "none";
   }
 }
+function displayResult() {
+  document.getElementById("myHeader").innerHTML = "Have a nice day!";
+}

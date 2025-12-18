@@ -46,3 +46,33 @@ footer{
         height: auto;
     }
 }
+p.one{
+    border: 1px solid black;
+    outline: 3px solid red;
+    outline-offset:-5px;
+    margin: 30px;
+    padding: 5px;
+    background: yellow;
+    text-align: center;
+}
+p.ex1{
+    outline: dashed;
+    border-radius: 8px;
+    outline-color:hsl(0, 100%, 50%);
+    outline-width: thin;
+    text-align-last:right ;
+}
+p.ex2{
+    outline: dotted red;
+    border-radius: 5px;
+    outline-color:blue;
+    outline-width: medium;
+    text-align-last: center;
+}
+p.ex3{
+    outline: 7px solid yellow;
+    border-radius: 8px;
+    outline-color:green;
+    outline-width: thick;
+    text-align-last:justify ;
+}

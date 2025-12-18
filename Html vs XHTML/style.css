@@ -1,0 +1,18 @@
+body{
+    background-color: lightgrey;
+    color: blue;
+}
+h1{
+    background-color: black;
+    color: green;
+    text-align: center;
+}
+h2{
+    color: red;
+    text-align: left;
+}
+div{
+    background-color: blue;
+    color: white;
+    text-align: justify;
+}
