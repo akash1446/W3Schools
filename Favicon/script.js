@@ -15,3 +15,10 @@ document.getElementById("data1").innerHTML="Hello Javascript!";
 document.getElementById("data2").innerHTML="How are You?";
 }
 myfunction();
+
+
+const price1 = 10;
+const price2 = 20;
+let total = price1 + price2;
+
+document.getElementById("data1").innerHTML = "Total Price of the " + total ;

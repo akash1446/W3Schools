@@ -1,4 +1,32 @@
 p{
+    color: tomato;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+h1{
+    background-color: tomato;
+}
+h2{
+    background-color: orange;
+}
+h3{
+    background-color: dodgerblue;
+}
+h4{
+    background-color: mediumseagreen;
+}
+h5{
+    background-color: gray;
+}
+h6{
+    background-color: slateblue;
+}
+h4{
+    background-color: violet;
+}
+h2{
+    background-color: lightgrey;
+}
+h3{
+    background-color: tomato;
 }
