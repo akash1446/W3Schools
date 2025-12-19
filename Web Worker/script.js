@@ -17,3 +17,15 @@ function stopWorker() {
   w.terminate();
   w = undefined;
 }
+let a =10
+let b=20
+let x = 100 + 50 * a - b;
+document.getElementById("operator").innerHTML=x;
+
+
+let z = 10
+let y = 20
+y++
+z--
+let k = z / y % y
+document.getElementById("operator").innerHTML=k;
