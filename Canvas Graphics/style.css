@@ -2,3 +2,17 @@
     border: 2px solid green;
     background-color: maroon;
 }
+p.normal{
+    font-variant: normal;
+    font-size: 5vw;
+}
+p.small{
+    font-variant: small-caps;
+}
+h1{
+    font-size: 10vw;
+}
+html{
+    font-size: 16px;
+}
+

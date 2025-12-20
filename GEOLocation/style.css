@@ -6,9 +6,17 @@ p{
 p.e1{
     margin-left: inherit;
 }
-h1{
-  margin-bottom: 50px;
+h1 {
+  font-family: Georgia, serif;
+  font-size: 60px;
+  color: white;
 }
 h2{
   margin-top: 20px;
+}
+body {
+  background-color: black;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  color: gray;
 }

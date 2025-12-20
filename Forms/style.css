@@ -10,3 +10,10 @@ p.one{
 p #two{
     border-top: 5px dashed yellow;
 }
+body{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    
+}
+h1 {font-family: "Audiowide", sans-serif;}
+h2 {font-family: "Sofia", sans-serif;}
