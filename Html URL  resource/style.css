@@ -1,0 +1,22 @@
+i{
+    font-size: 24px;
+    color: red;
+}
+a{
+    color: hotpink;
+    background-color: yellow;
+    font-weight: bold;
+}
+a:link, a:visited{
+    color: black;
+    border: 2px solid green;
+    padding:10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color:white;
+}
+a:hover, a:active{
+    background-color:green;
+    color: white;
+}

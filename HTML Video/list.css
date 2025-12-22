@@ -1,0 +1,36 @@
+ul.a{
+    list-style-type: circle;
+    list-style-position: outside;
+}
+ul.b {list-style-type: disc;
+    list-style-position: inside;
+}
+ul.c {list-style-image:url('imagegif.gif');
+    list-style-type: square;}
+
+ol.d {list-style-type: upper-roman;}
+ol.e {list-style-type: lower-roman;}
+ol.f {list-style-type: lower-alpha;}
+ol.g {list-style-type: decimal;}
+
+ul {
+  list-style: square inside url("/imagegif.gif");
+  background: powderblue;
+  padding: 20px;
+}
+ol{
+    background: salmon;
+    padding: 20px;
+}
+ol li{
+    background: mistyrose;
+    color: darkred;
+    padding: 10px;
+    margin-left: 20px;
+}
+ul li{
+   background: mistyrose;
+   color: darkblue;
+   margin: 5px;
+}
+
