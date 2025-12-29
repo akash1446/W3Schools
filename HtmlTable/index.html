@@ -1,46 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-table,td, th {
-  border: 1px solid,black;
-  border-radius: 10px;
-  text-align: left;
-  padding: 8px;
-}
-td,th{
-    background-color: #96D4D4;
-    border-style: dotted;
-    border-color: pink;
-    padding: 15px;
-    border-spacing: 10px;
-}
-th{
-    text-align: left;
-}
-tr{
-   border-bottom: 1px solid #ddd;
-}
-tr:hover{
-   background-color:#D6EEEE ;
-}
-tr:nth-child(even) {
-  background-color: rgba(150,212,212,0.4);
-}
-th:nth-child(even),td:nth-child(even) {
-  background-color: rgba(150, 212, 212, 0.4);
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h2>Tables</h2>
 <h2>Colgroup</h2>
 <p>Add the a colgroup with a col element that spans over two columns to define a style for the two columns:</p>
+<p id="dt"></p>
+<p class="flip" onclick="myFunction()">Click to show panel</p>
+<div id ="panel">
+  <p>This panel contains a div element, which is hidden by default (display: none).</p>
+  <p>We use JavaScript to show it (display: block).</p>
+  <p>How it works: When the user clicks on the p element, a function called myFunction() is executed, which changes the style of the div with id="panel" from display:none (hidden) to display:block (visible).</p>
+  <p>You will learn more about JavaScript in our JavaScript Tutorial.</p>
 <table style="width: 100%;">
     <colgroup>
     <col span="2">
@@ -83,6 +56,7 @@ th:nth-child(even),td:nth-child(even) {
   </tr>
 </table>
 
+<script src="script.js"></script>
 </body>
 </html>
 
